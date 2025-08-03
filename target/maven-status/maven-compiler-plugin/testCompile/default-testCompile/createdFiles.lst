@@ -1,0 +1,4 @@
+com/microservice/mscclientes/application/usecase/CreateClientUseCaseTest.class
+com/microservice/mscclientes/domain/entity/ClientTest.class
+com/microservice/mscclientes/integration/ClientIntegrationTest.class
+com/microservice/mscclientes/interface_/controller/ClientControllerTest.class
