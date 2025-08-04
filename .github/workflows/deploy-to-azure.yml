@@ -16,6 +16,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '17'
+          distribution: 'temurin'
 
       - name: Build with Maven (ignorar fallos de test)
         run: mvn clean package -DskipTests || mvn clean package -Dmaven.test.failure.ignore=true
