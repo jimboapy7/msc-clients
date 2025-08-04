@@ -8,9 +8,9 @@ spring:
     name: msc-clientes
   
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/msc_clientes?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true}
-    username: ${DB_USERNAME:root}
-    password: ${DB_PASSWORD:password}
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://srv-test-evaluacion.mysql.database.azure.com:3306/msc_clientes?sslMode=REQUIRED&serverTimezone=UTC}
+    username: ${DB_USERNAME:rootmysql}
+    password: ${DB_PASSWORD:Ecuador2025$}
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       maximum-pool-size: 20

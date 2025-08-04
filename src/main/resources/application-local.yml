@@ -8,8 +8,8 @@ spring:
     name: msc-clientes
   
   datasource:
-    url: jdbc:mysql://MacBook-Air-de-Jimmy.local:3306/msc_clientes?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true
-    username: root
+    url: jdbc:mysql://srv-test-evaluacion.mysql.database.azure.com:3306/msc_clientes?sslMode=REQUIRED&serverTimezone=UTC
+    username: rootmysql
     password: Ecuador2025$
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
@@ -38,8 +38,8 @@ spring:
     locations: classpath:db/migration
     baseline-on-migrate: true
     validate-on-migrate: true
-    url: jdbc:mysql://MacBook-Air-de-Jimmy.local:3306/msc_clientes?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true
-    user: root
+    url: jdbc:mysql://srv-test-evaluacion.mysql.database.azure.com:3306/msc_clientes?sslMode=REQUIRED&serverTimezone=UTC
+    user: rootmysql
     password: Ecuador2025$
 
   security:
